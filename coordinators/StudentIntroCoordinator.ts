@@ -1,8 +1,8 @@
 import bs58 from 'bs58'
 import * as web3 from '@solana/web3.js'
 import { StudentIntro } from '../models/StudentIntro'
+import STUDENT_INTRO_PROGRAM_ID from '../utils/constants'
 
-const STUDENT_INTRO_PROGRAM_ID = 'HdE95RSVsdb315jfJtaykXhXY478h53X6okDupVfY9yf'
 
 export class StudentIntroCoordinator {
     static accounts: web3.PublicKey[] = []
